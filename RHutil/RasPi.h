@@ -139,6 +139,7 @@ extern "C" {
 #endif
 
 extern unsigned int millis(void);
+extern void delay(unsigned int howLong);
 
 extern void digitalWrite        (int pin, int value) ;
 extern void pinMode             (int pin, int mode) ;

@@ -19,8 +19,6 @@ extern int    _simulator_argc;
 extern char** _simulator_argv;
 
 // Definitions for various Arduino functions
-extern void delay(unsigned long ms);
-extern unsigned long millis();
 extern long random(long to);
 extern long random(long from, long to);
 

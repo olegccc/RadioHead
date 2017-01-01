@@ -54,7 +54,7 @@ void SPIClass::begin(uint16_t divider, uint8_t bitOrder, uint8_t dataMode) {
     bcm2835_spi_begin();
 
     bcm2835_spi_setDataMode(BCM2835_SPI_MODE1);
-    bcm2835_spi_setClockDivider(BCM2835_SPI_CLOCK_DIVIDER_64);
+    bcm2835_spi_setClockDivider(BCM2835_SPI_CLOCK_DIVIDER_256);
     bcm2835_spi_chipSelect(BCM2835_SPI_CS0);
 
 //    setClockDivider(divider);
